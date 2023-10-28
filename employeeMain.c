@@ -46,7 +46,7 @@ int main(void)
 	}
 
 	//Find Phone Number. Example not found.
-	matchPtr = searchEmployeeByPhone(EmployeeTable, EmployeeTableEntries, "909-555-2134");
+	matchPtr = searchEmployeeByPhone(EmployeeTable, EmployeeTableEntries, "999-999-999");
 	if(matchPtr != NULL)
 	{
 		printf("Employee phone 999-999-999 is in the record %d\n", matchPtr - EmployeeTable);
@@ -70,7 +70,7 @@ int main(void)
 
 	//Find Salary. Example not found
 
-	matchPtr = searchEmployeeBySalary(EmployeeTable, EmployeeTableEntries, 8.78);
+	matchPtr = searchEmployeeBySalary(EmployeeTable, EmployeeTableEntries, 9.99);
 	if(matchPtr != NULL)
 	{
 		printf("Employee salary 9.99 is in the record %d\n", matchPtr - EmployeeTable);
